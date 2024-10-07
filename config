@@ -5,12 +5,18 @@
   co = "checkout"
   st = "status --short"
 
+  re = "reset"
+  reH = "reset --hard"
+
   logs = "log"
   ls = "log --oneline"
 
   ci = "commit"
   cia = "commit --amend"
   cian = "commit --amend --no-edit"
+
+  rb = "rebase"
+  rbi = "rebase --interactive"
 
 
 [user]
