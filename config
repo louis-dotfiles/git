@@ -18,6 +18,7 @@
 
   rb = "rebase"
   rbi = "rebase --interactive"
+  rba = "rebase --abort"
 
   search = "log -S"
 
