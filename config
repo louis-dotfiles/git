@@ -27,3 +27,5 @@
   email = "louis.vinchon.dev@gmail.com"
   name = "Louis VINCHON"
 
+[pager]
+  branch = false
