@@ -36,7 +36,7 @@
   branch = false
   color = no ; Nvim doesn't like the terminal colors escape sequences.
   log = "nvim -R +'set ft=git nomodifiable'"
-  diff = "nvim -R +'set ft=gitdiff'"
+  diff = "nvim -Rd +'set nomodifiable'"
 
 [push]
 	autoSetupRemote = true
