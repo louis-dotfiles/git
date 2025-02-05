@@ -39,5 +39,6 @@
   diff = "nvim -Rd +'set nomodifiable'"
 
 [push]
+  default = current
 	autoSetupRemote = true
 
