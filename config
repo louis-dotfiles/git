@@ -25,10 +25,12 @@
 
   search = "log -S"
 
+  # Note: the `\` needs to be escaped.
+  alias = "!git config -l | grep alias | sed 's/^alias\\.//g' | sed 's/=/ = /'"
 
   # Caution: force push!
-  pf = "push --force"
-  dbg = "!git add --all && git commit --amend --no-edit && git push --force"
+  pF = "push --force"
+  DBG = "!git add --all && git commit --amend --no-edit && git push --force"
 
 [user]
   email = "louis.vinchon.dev@gmail.com"
