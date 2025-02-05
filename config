@@ -25,6 +25,11 @@
 
   search = "log -S"
 
+
+  # Caution: force push!
+  pf = "push --force"
+  dbg = "!git add --all && git commit --amend --no-edit && git push --force"
+
 [user]
   email = "louis.vinchon.dev@gmail.com"
   name = "Louis VINCHON"
