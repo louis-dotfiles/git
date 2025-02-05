@@ -25,6 +25,8 @@
 
   search = "log -S"
 
+  test = "asd"
+
 [user]
   email = "louis.vinchon.dev@gmail.com"
   name = "Louis VINCHON"
